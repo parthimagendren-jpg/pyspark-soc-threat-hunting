@@ -1,0 +1,15 @@
+# Raw Kaggle data: download it from Kaggle (not redistributed here)
+*.csv
+
+# Files and folders the notebook creates when it runs
+/analytics_dataset.parquet/
+/threat_hunting_dataset.parquet/
+submission/
+submission.zip
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
